@@ -1,4 +1,5 @@
 HELPERBEA
+
 Abstract: Modern hand held devices such as smart phone and PDAs have become increasingly 
 powerful in recent years. The era of mobile technology opens the window to the android app. 
 The websites are vanishing and mobile phones are emerging. But it’s a common phenomenon 
