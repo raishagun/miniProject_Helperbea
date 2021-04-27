@@ -70,15 +70,16 @@ public class LoginActivity extends AppCompatActivity {
 
                     SharedPreferences.Editor ed=getSharedPreferences("temp",MODE_PRIVATE).edit();
 
-                    if (email.isEmpty()) {
-                        editTextemail.setError("Field is required");
-                        editTextemail.requestFocus();
-                        ed.putBoolean("isError1",true);
-                    }
+                   
 
                     if (password.isEmpty()) {
                         editTextpassword.setError("Field is required");
                         editTextpassword.requestFocus();
+                        ed.putBoolean("isError1",true);
+                    }
+                     if (email.isEmpty()) {
+                        editTextemail.setError("Field is required");
+                        editTextemail.requestFocus();
                         ed.putBoolean("isError1",true);
                     }
 
